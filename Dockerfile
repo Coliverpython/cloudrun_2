@@ -11,4 +11,4 @@ COPY . .
 
 EXPOSE 3002
 
-CMD ["python", "app.py", "-p", "3002"]
+CMD ["python", "app.py", "--allow-websocket-origin=https://cloudrun-r5izfanc6a-ew.a.run.app", "-p", "3002"]
